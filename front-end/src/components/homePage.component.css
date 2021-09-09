@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.prop{
+    color:mediumaquamarine;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#properties{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+}
+
+
+
+#searchBar{
+    padding-top: 5%;
+    width:fit-content;
+    height: fit-content;
+
+}
+
+#tasks{
+  width:fit-content;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#task{
+    width:fit-content;
+    height:fit-content;
+    margin-top: 1%;
+    margin-right:1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
