@@ -12,7 +12,7 @@ router.post('/', async(req,res)=>{
     let author = request.author;
    
     
-    generatedTask = new newTask(Date, name, status, author);
+    let generatedTask = new newTask(Date, status, author, name);
     console.log(generatedTask);
     var task = new TASK(generatedTask);
     await console.log(task);

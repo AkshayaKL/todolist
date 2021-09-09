@@ -7,7 +7,7 @@ router.post('/', async(req,res)=>{
    //await console.log(req.params.code);
     let request = req.body;
     let id = request.id;
-    await console.log(code);
+    await console.log(id);
     
     await TASK.findByIdAndDelete(id,async(err,docs)=>{
         if(err){

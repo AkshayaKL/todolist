@@ -10,7 +10,7 @@ router.patch('/', async(req,res)=>{
     let author = request.author;
     let name = request.name;
     let status = request.status;
-    
+    let id = request._id;
 
         await TASK.findByIdAndUpdate(id,{$set: { date: date, author:author, name:name,status:status}},async(err,docs)=>{
         if(err){
